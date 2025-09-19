@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .bord {
+            border-top: 1px;
+            border-right: 1px;
+            border-left: 1px;
+        }
+
+        .dif {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Disciplinas</th>
+                <th>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="bord">Notas</th>
+                            </tr>
+                            <tr style=>
+                                <th class="dif">Nota 1</th>
+                                <th class="dif">Nota 2</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </th>
+                <th>Média</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
