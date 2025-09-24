@@ -1,30 +1,8 @@
-X1= float(input("Digite o primeiro valor: "))
-X2= float(input("Digite o segundo valor: "))
-
-soma = X1 + X2
-subtra = X1 - X2
-multi = X1 * X2
-div= X1 / X2
-
-print ("Escolha a operação que deseja fazer:") 
-print("")
-print("1)SOMA")
-print("2)SUBTRAÇÃO")
-print("3)MULTIPLICAÇÃO")
-print("4)DIVISÃO")
-
-print("")
-resp= int(input(""))
-
-if (resp==1):
-    print(soma) 
-elif(resp==2):
-    print(subtra)
-elif(resp==3):
-    print(multi)
-else:
-    print(div)
-
-#                                                                                        #
-
+nome= str(input("Digite o seu nome: ")).strip()
+print("Analisando seu nome...")
+print("Seu nome em maiúsculas é {}".format(nome.upper()))
+print("Seu nome em minúsculas é {}".format(nome.lower()))
+print("Seu nome ao todo tem {} letras".format(len(nome) - nome.count(" ")))
+print("Seu primeiro nome tem {} letras".format(nome.find(" ")))
+                                                                                        
 
