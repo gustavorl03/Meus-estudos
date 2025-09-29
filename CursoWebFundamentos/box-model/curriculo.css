@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(206, 203, 203);
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+h1 {
+    background-color: rgba(86, 86, 182, 0.445);
+    color: rgb(4, 4, 95);
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.pzinho {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    background-color: rgba(144, 144, 255, 0.322);
+    margin-bottom: 30px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+.menu a {
+    background-color: #c1bebe;
+    padding: 16px;
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    background-color: rgb(163, 162, 162);
+    color: rgb(4, 4, 95);
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(4, 4, 95);
+}
+
+p {
+    width: 80%;
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.pzao {
+    width: 80%;
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    width: 80%;
+    margin: auto;
+    padding-top: 12px;
+    
+}
+
+h4 {
+    width: 80%;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
