@@ -24,7 +24,7 @@
 #print(a)
 #print(b)
 
-#----------------------------------------------------------
+#--------------------------------------------------------
 
 #valores = []
 #maiorvalor = 0
@@ -51,5 +51,39 @@
 #print(f"O maior valor digitado foi {maiorvalor} na posição {posicaomaior}...")
 #print(f"O menor valor digitado foi {menorvalor} na posição {posicaomenor}...")
 
-#----------------------------------------------------------
+#--------------------------------------------------------
 
+#num = []
+#while True:
+#    num.append(int(input(("Digite um número: "))))
+#    res = str(input("Quer continuar [S/N]? "))
+#    if res in "nN":
+#        break
+#print("-=" * 30)
+#print(f"Você digitou {len(num)} elementos")
+#num.sort(reverse=True)
+#print(f"Os valores em ordem decrescente são {num}")
+#if 5 in num:
+#    print("O valor 5 faz parte da lista!")
+#else:
+#    print("O valor 5 não faz parte da lista!")
+
+#--------------------------------------------------------
+
+valores = []
+valorpar = []
+valorimpar = []
+while True:
+    valores.append(int(input(("Digite um número: "))))
+    res = str(input("Quer continuar [S/N]? "))
+    if res in "nN":
+        break
+for i, v in enumerate(valores):
+    if v % 2 == 0:
+        valorpar.append(v)
+    else:
+        valorimpar.append(v)
+print("-=" * 30)
+print(f"A lista completa é {valores}")
+print(f"A lista de pares é {valorpar}")
+print(f"A lista de ímpares é {valorimpar}")
