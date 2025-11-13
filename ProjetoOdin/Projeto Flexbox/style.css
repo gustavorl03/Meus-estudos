@@ -18,7 +18,6 @@ header {
     height: 350px;
     display: flex;
     flex-direction: column;
-    
 }
 
 nav {
@@ -39,7 +38,6 @@ ul {
     font-size: 20px;
     color: #F9FAF8;
     margin-left: 194px;
-    
 }
 
 li {
@@ -72,11 +70,16 @@ section {
 
 button {
     background-color: #3882F6;
-    color: #E5E7EB;;
     border: 0;
     border-radius: 5px;
     padding: 4px 25px;
     margin-top: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 12px;
 }
 
 .imagem-header {
@@ -90,7 +93,9 @@ button {
 
 .imagem-header > p {
     align-self: center;
-    color: #E5E7EB;
+    color: #ececed;
     padding: 40px;
 }
+
+
 
