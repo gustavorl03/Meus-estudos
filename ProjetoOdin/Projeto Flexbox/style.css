@@ -30,12 +30,10 @@ nav {
     gap: 50px; 
 }
 
-
 .logo {
     font-size: 20px;
     color: #F9FAF8;
     font-weight: 900;
-
 }
 
 .texto-header {
@@ -65,10 +63,9 @@ button {
     padding: 4px;
     font-weight: 700;
     width: 100px;
-    
 }
 
-a {
+ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 12px;
@@ -89,7 +86,6 @@ ul {
     gap: 45px;
     margin-top: 10px;
 }
-
 
 li {
     font-size: 12px;
@@ -122,6 +118,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .texto {
@@ -162,8 +159,86 @@ main {
 
 .citacao {
     background-color: #E5E7EB;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.citacao-maior {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .thor {
-    
+    width: 70%;
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: 300;
+    height: auto;
+}
+
+.autor {
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    width: 200px;
+    margin-top: -40px;
+}
+
+.penultimo {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azul {
+    width: 65%;
+    background-color: #3882F6;
+    height: 130px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action > .titulo {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 800;
+    margin: 0;
+}
+
+.action > .descricao {
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.sign-up button {
+    border: 2px solid #E5E7EB;
+    border-radius: 7px;
+    padding: 7px 10px;
+    color: #ececed;
+    margin-left: -10px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final {
+    color: #F9FAF8;
+    font-size: 12px;
+    font-weight: 300;
 }
