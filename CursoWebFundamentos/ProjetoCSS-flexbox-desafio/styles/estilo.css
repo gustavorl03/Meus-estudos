@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../imagens/bg-2.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    gap: 10px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center; 
+}
+
+.titulos >  h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.titulos > h2 {
+    color: white;
+    background-color: black;
+   
+
+}
+
+main {
+    background-color: white;
+    max-width: 950px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
