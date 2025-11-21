@@ -91,7 +91,6 @@ body {
     line-height: 1.8;
     color: #b5b5b5;
     padding-left: 16px;
-    flex: 1;
 }
 
 .plan__features li::marker {
@@ -108,6 +107,7 @@ body {
     font-weight: bold;
     padding: 16px 10px;
     text-align: center;
+    margin-block-start: auto;
 }
 
 .plan__cta:hover {
