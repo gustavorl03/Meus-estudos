@@ -1,4 +1,46 @@
-html {
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Viaoda+Libre&display=swap');
+
+body {
+    width: 96%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.container-cabecalho {
+    background-color: #162028;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 1024px;
+    height: 80px;
+}
+
+h1 {
+    width: 200px;
+    color: white;
+    font-family: "Viaoda Libre", serif;
+    margin-left: 150px;
+}
+
+ul {
+    margin-left: 195px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 30px;
+    padding: 16px;
+    color: #425564;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.img-cabecalho {
+    
+}
