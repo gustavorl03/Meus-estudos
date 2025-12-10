@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Viaoda+Libre&display=swap');
 
 body {
-    width: 96%;
     margin: auto;
     font-family: "Roboto", sans-serif;
 }
 
 header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0px;
 }
 
 .container-cabecalho {
     background-color: #162028;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 20px;
-    width: 1024px;
+    width: 85%;
     height: 80px;
 }
 
@@ -27,6 +27,7 @@ h1 {
     color: white;
     font-family: "Viaoda Libre", serif;
     margin-left: 150px;
+    font-weight: normal;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap: 30px;
+    gap: 80px;
     padding: 16px;
     color: #425564;
     text-transform: uppercase;
@@ -42,5 +43,107 @@ ul {
 }
 
 .img-cabecalho {
-    
+    width: 85%;
+    height: 600px;
+    background-image: url(/imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: "Viaoda Libre", serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #555;
+}
+
+.section-one p {
+    width: 67%;
+    line-height: 33px;
+    color: #555;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 69px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards h3 {
+    color: #555;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.cards p {
+    width: 200px;
+}
+
+.section-two {
+    width: 85%;
+    height: 900px;
+    margin: auto;
+    margin-top: 70px;
+    background-image: url(/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: end right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+    gap: -5px;
+}
+
+.section-two h2 {
+    color: white;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-size: 64px;
+    width: 900px;
+}
+
+.section-two p {
+    color: white;
+    font-size: 17px;
+    width: 600px;
+    line-height: 25px;
+}
+
+.rodape {
+    background-color: #0b171f;
+    width: 85%;
+    height: 70px;
+    margin: auto;
+    color: #6f8597;
+    font-family: "Viaoda Libre", serif;
+    letter-spacing: 3px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
